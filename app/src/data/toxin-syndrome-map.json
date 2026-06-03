@@ -1,0 +1,32 @@
+{
+  "PSP": {
+    "fullName": "Paralytic Shellfish Poisoning",
+    "shortDescription": "Neurological syndrome caused by saxitoxins and analogues; block voltage-gated sodium channels. Transmitted via bivalves, crabs, and gastropods.",
+    "toxins": ["STX", "NEO", "dcSTX", "dcNEO", "GTX1", "GTX2", "GTX3", "GTX4", "dcGTX1", "dcGTX2", "dcGTX3", "dcGTX4", "B1", "B2", "C1", "C2", "C3", "C4"]
+  },
+  "DSP": {
+    "fullName": "Diarrhetic Shellfish Poisoning",
+    "shortDescription": "Gastrointestinal syndrome caused by okadaic acid and derivatives; inhibit protein phosphatases PP1 and PP2A. Transmitted via bivalves.",
+    "toxins": ["OA", "DTX1", "DTX2", "DTX3", "PTX1", "PTX2", "PTX11", "YTX", "homoYTX", "45-OH-YTX", "45-OH-homoYTX"]
+  },
+  "ASP": {
+    "fullName": "Amnesic Shellfish Poisoning",
+    "shortDescription": "Neurological syndrome caused by domoic acid; excitotoxic glutamate analogue causing hippocampal lesions. Transmitted via bivalves and fish.",
+    "toxins": ["DA", "epi-DA", "iso-DA-A", "iso-DA-B", "iso-DA-C", "iso-DA-D", "iso-DA-E", "iso-DA-F", "iso-DA-G", "iso-DA-H"]
+  },
+  "NSP": {
+    "fullName": "Neurotoxic Shellfish Poisoning",
+    "shortDescription": "Neurological syndrome caused by brevetoxins; activate voltage-gated sodium channels. Transmitted via bivalves; aerosol irritation also documented.",
+    "toxins": ["PbTx1", "PbTx2", "PbTx3", "PbTx5", "PbTx6", "PbTx7", "PbTx9", "BTX-B1", "BTX-B2", "BTX-B4", "BTX-B5"]
+  },
+  "CFP": {
+    "fullName": "Ciguatera Fish Poisoning",
+    "shortDescription": "Neurological syndrome from ciguatoxins bioaccumulated in coral reef fish; activate sodium channels. Transmitted via herbivorous and piscivorous fish.",
+    "toxins": ["CTX1B", "CTX2B", "CTX3C", "CTX4A", "CTX4B", "MTX1", "MTX2", "MTX3"]
+  },
+  "AZP": {
+    "fullName": "Azaspiracid Shellfish Poisoning",
+    "shortDescription": "Gastrointestinal and neurotoxic syndrome caused by azaspiracids from Azadinium and related genera. Transmitted via bivalves, particularly mussels.",
+    "toxins": ["AZA1", "AZA2", "AZA3", "AZA4", "AZA5", "AZA6"]
+  }
+}

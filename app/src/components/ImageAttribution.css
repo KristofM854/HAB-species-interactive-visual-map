@@ -1,0 +1,44 @@
+.image-attribution {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 0.6875rem;
+  color: var(--color-text-dim);
+  background: rgba(0, 0, 0, 0.25);
+  padding: 0.375rem 0.5rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+}
+
+.attribution-label {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.6rem;
+  color: var(--color-text-dim);
+}
+
+.attribution-credit {
+  color: var(--color-text-muted);
+}
+
+.attribution-source {
+  color: var(--color-text-dim);
+}
+
+.attribution-source::before {
+  content: '·';
+  margin-right: 0.375rem;
+  color: var(--color-border-light);
+}
+
+.attribution-license {
+  color: var(--color-accent);
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.attribution-license:hover {
+  color: var(--color-accent-hover);
+}

@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "source": "IOC-UNESCO / WoRMS",
+    "accessed": "SAMPLE — run data-pipeline/R/pull_hab_data.R to replace",
+    "version": "1",
+    "note": "Hand-curated sample for v0 development. PSP (4 species) and DSP (3 species)."
+  },
+  "species": [
+    {
+      "aphiaId": 109606,
+      "scientificName": "Alexandrium minutum",
+      "authority": "Halim, 1960",
+      "classification": {
+        "phylum": "Myzozoa",
+        "class": "Dinophyceae",
+        "order": "Gonyaulacales",
+        "family": "Ostreopsidaceae",
+        "genus": "Alexandrium"
+      },
+      "toxins": ["GTX1", "GTX4", "dcGTX1", "dcGTX4"],
+      "notes": "Small, globally distributed dinoflagellate. Produces predominantly GTX-1 and GTX-4. A major cause of PSP events in the Mediterranean and North Atlantic.",
+      "image": {
+        "url": "",
+        "credit": "",
+        "source": "WoRMS",
+        "license": "",
+        "licenseUrl": "",
+        "licenseUsable": null
+      }
+    },
+    {
+      "aphiaId": 109541,
+      "scientificName": "Alexandrium tamarense",
+      "authority": "(Lebour) Balech, 1995",
+      "classification": {
+        "phylum": "Myzozoa",
+        "class": "Dinophyceae",
+        "order": "Gonyaulacales",
+        "family": "Ostreopsidaceae",
+        "genus": "Alexandrium"
+      },
+      "toxins": ["STX", "NEO", "GTX1", "GTX2", "GTX3", "GTX4", "dcSTX"],
+      "notes": "Recently subdivided into several ribotype-based species. Historically one of the most important global PSP producers. Widely distributed in temperate waters.",
+      "image": {
+        "url": "",
+        "credit": "",
+        "source": "WoRMS",
+        "license": "",
+        "licenseUrl": "",
+        "licenseUsable": null
+      }
+    },
+    {
+      "aphiaId": 109613,
+      "scientificName": "Gymnodinium catenatum",
+      "authority": "Graham, 1943",
+      "classification": {
+        "phylum": "Myzozoa",
+        "class": "Dinophyceae",
+        "order": "Gymnodiniales",
+        "family": "Gymnodiniaceae",
+        "genus": "Gymnodinium"
+      },
+      "toxins": ["STX", "dcSTX", "B1", "B2", "C1", "C2", "C3", "C4"],
+      "notes": "Chain-forming athecate (unarmoured) dinoflagellate. Responsible for major PSP outbreaks in Australia, Portugal, and Japan. Notable for producing primarily N-sulfocarbamoyl toxins.",
+      "image": {
+        "url": "",
+        "credit": "",
+        "source": "WoRMS",
+        "license": "",
+        "licenseUrl": "",
+        "licenseUsable": null
+      }
+    },
+    {
+      "aphiaId": 109623,
+      "scientificName": "Pyrodinium bahamense",
+      "authority": "Plate, 1906",
+      "classification": {
+        "phylum": "Myzozoa",
+        "class": "Dinophyceae",
+        "order": "Gonyaulacales",
+        "family": "Ceratiaceae",
+        "genus": "Pyrodinium"
+      },
+      "toxins": ["STX", "NEO", "dcSTX"],
+      "notes": "Tropical PSP producer; var. compressum responsible for lethal shellfish poisoning events in the Philippines and Central America. Also strongly bioluminescent.",
+      "image": {
+        "url": "",
+        "credit": "",
+        "source": "WoRMS",
+        "license": "",
+        "licenseUrl": "",
+        "licenseUsable": null
+      }
+    },
+    {
+      "aphiaId": 109474,
+      "scientificName": "Dinophysis acuminata",
+      "authority": "Claparède & Lachmann, 1859",
+      "classification": {
+        "phylum": "Myzozoa",
+        "class": "Dinophyceae",
+        "order": "Dinophysales",
+        "family": "Dinophysaceae",
+        "genus": "Dinophysis"
+      },
+      "toxins": ["OA", "DTX1", "PTX2"],
+      "notes": "The most widespread DSP-producing Dinophysis species. Mixotrophic — acquires plastids from the ciliate Mesodinium rubrum. Principal cause of DSP shellfish closures in Europe.",
+      "image": {
+        "url": "",
+        "credit": "",
+        "source": "WoRMS",
+        "license": "",
+        "licenseUrl": "",
+        "licenseUsable": null
+      }
+    },
+    {
+      "aphiaId": 109475,
+      "scientificName": "Dinophysis acuta",
+      "authority": "Ehrenberg, 1839",
+      "classification": {
+        "phylum": "Myzozoa",
+        "class": "Dinophyceae",
+        "order": "Dinophysales",
+        "family": "Dinophysaceae",
+        "genus": "Dinophysis"
+      },
+      "toxins": ["OA", "DTX2", "PTX2", "PTX11"],
+      "notes": "Characteristically produces DTX-2 as its dominant okadaic acid analogue. Forms dense thin layers in stratified fjords and coastal embayments of the Northeast Atlantic.",
+      "image": {
+        "url": "",
+        "credit": "",
+        "source": "WoRMS",
+        "license": "",
+        "licenseUrl": "",
+        "licenseUsable": null
+      }
+    },
+    {
+      "aphiaId": 163386,
+      "scientificName": "Prorocentrum lima",
+      "authority": "(Ehrenberg) Stein, 1878",
+      "classification": {
+        "phylum": "Myzozoa",
+        "class": "Dinophyceae",
+        "order": "Prorocentrales",
+        "family": "Prorocentraceae",
+        "genus": "Prorocentrum"
+      },
+      "toxins": ["OA", "DTX1", "DTX2"],
+      "notes": "Benthic epiphytic dinoflagellate growing on macroalgae and sediments. Produces okadaic acid directly into surrounding water. Globally distributed in tropical to warm-temperate regions.",
+      "image": {
+        "url": "",
+        "credit": "",
+        "source": "WoRMS",
+        "license": "",
+        "licenseUrl": "",
+        "licenseUsable": null
+      }
+    }
+  ]
+}

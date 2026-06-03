@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software in academic work, please cite it using the
+  metadata from this file.
+type: software
+title: HAB Species Interactive Visual Map
+abstract: >-
+  An interactive educational web tool mapping marine biotoxin poisoning
+  syndromes (PSP, DSP, ASP, NSP, CFP, AZP) to the harmful microalgal species
+  that cause them. Species data derive from the IOC-UNESCO Taxonomic Reference
+  List of Harmful Micro Algae via WoRMS.
+authors:
+  - family-names: Moeller
+    given-names: Kristof
+    email: kristof-moeller@t-online.de
+repository-code: >-
+  https://github.com/kristofm854/hab-species-interactive-visual-map
+url: >-
+  https://kristofm854.github.io/hab-species-interactive-visual-map/
+license: MIT
+version: 0.1.0
+date-released: '2026-06-03'
+identifiers:
+  - type: doi
+    value: PLACEHOLDER
+    description: Zenodo DOI (assigned on first archive release)
+references:
+  - type: dataset
+    authors:
+      - name: IOC-UNESCO
+    title: >-
+      IOC-UNESCO Taxonomic Reference List of Harmful Micro Algae
+    url: https://www.ioc-unesco.org/
+    license: CC-BY-4.0
+    notes: >-
+      Accessed via WoRMS REST API and the SHARK4R R package.
+      Cite as: Moestrup O, Akselman R et al. (eds) IOC-UNESCO
+      Taxonomic Reference List of Harmful Micro Algae. Available online at
+      http://www.marinespecies.org/hab. Accessed YYYY-MM-DD.
+  - type: software
+    authors:
+      - name: WoRMS Editorial Board
+    title: World Register of Marine Species
+    url: https://www.marinespecies.org
+    license: CC-BY-4.0
