@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import speciesData from '../data/hab-species.v1.json'
+import speciesData from 'app/src/data/hab-species.v20260603.json'
 import syndromeMap from '../data/toxin-syndrome-map.json'
 
 export function useHabData() {

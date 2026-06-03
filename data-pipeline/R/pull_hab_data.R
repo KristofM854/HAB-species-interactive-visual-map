@@ -127,7 +127,7 @@ species_records <- hab_raw |>
 # ── 5. Write versioned JSON ───────────────────────────────────────────────────
 
 today       <- format(Sys.Date(), "%Y%m%d")
-output_path <- file.path("..", "app", "src", "data",
+output_path <- file.path("app", "src", "data",
                          sprintf("hab-species.v%s.json", today))
 
 write_json(
