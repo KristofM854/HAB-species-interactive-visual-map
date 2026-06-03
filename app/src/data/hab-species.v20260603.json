@@ -106,7 +106,10 @@
         "family": "Pyrocystaceae",
         "genus": "Alexandrium"
       },
-      "toxins": [],
+      "toxins": [
+        "NEO",
+        "dcNEO"
+      ],
       "notes": "",
       "image": {}
     },
@@ -151,7 +154,15 @@
         "family": "Pyrocystaceae",
         "genus": "Alexandrium"
       },
-      "toxins": [],
+      "toxins": [
+        "STX",
+        "NEO",
+        "GTX1",
+        "GTX2",
+        "GTX3",
+        "GTX4",
+        "dcSTX"
+      ],
       "notes": "",
       "image": {}
     },
@@ -211,7 +222,14 @@
         "family": "Pyrocystaceae",
         "genus": "Alexandrium"
       },
-      "toxins": [],
+      "toxins": [
+        "STX",
+        "NEO",
+        "GTX1",
+        "GTX2",
+        "GTX3",
+        "GTX4"
+      ],
       "notes": "",
       "image": {}
     },
@@ -286,7 +304,10 @@
         "family": "Pyrocystaceae",
         "genus": "Alexandrium"
       },
-      "toxins": [],
+      "toxins": [
+        "GTX1",
+        "GTX4"
+      ],
       "notes": "",
       "image": {}
     },
@@ -301,7 +322,12 @@
         "family": "Pyrocystaceae",
         "genus": "Alexandrium"
       },
-      "toxins": [],
+      "toxins": [
+        "GTX1",
+        "GTX4",
+        "dcGTX1",
+        "dcGTX4"
+      ],
       "notes": "",
       "image": {}
     },
@@ -346,7 +372,11 @@
         "family": "Pyrocystaceae",
         "genus": "Alexandrium"
       },
-      "toxins": [],
+      "toxins": [
+        "STX",
+        "NEO",
+        "dcSTX"
+      ],
       "notes": "",
       "image": {}
     },
@@ -361,7 +391,14 @@
         "family": "Pyrocystaceae",
         "genus": "Alexandrium"
       },
-      "toxins": [],
+      "toxins": [
+        "STX",
+        "NEO",
+        "GTX1",
+        "GTX2",
+        "GTX3",
+        "GTX4"
+      ],
       "notes": "",
       "image": {}
     },
@@ -376,7 +413,11 @@
         "family": "Pyrocystaceae",
         "genus": "Alexandrium"
       },
-      "toxins": [],
+      "toxins": [
+        "STX",
+        "NEO",
+        "dcSTX"
+      ],
       "notes": "",
       "image": {}
     },
@@ -421,7 +462,15 @@
         "family": "Pyrocystaceae",
         "genus": "Alexandrium"
       },
-      "toxins": [],
+      "toxins": [
+        "STX",
+        "NEO",
+        "GTX1",
+        "GTX2",
+        "GTX3",
+        "GTX4",
+        "dcSTX"
+      ],
       "notes": "",
       "image": {}
     },
@@ -691,7 +740,12 @@
         "family": "Amphidomataceae",
         "genus": "Amphidoma"
       },
-      "toxins": [],
+      "toxins": [
+        "AZA3",
+        "AZA4",
+        "AZA5",
+        "AZA6"
+      ],
       "notes": "",
       "image": {}
     },
@@ -961,7 +1015,9 @@
         "family": "Amphidomataceae",
         "genus": "Azadinium"
       },
-      "toxins": [],
+      "toxins": [
+        "AZA2"
+      ],
       "notes": "",
       "image": {}
     },
@@ -976,7 +1032,9 @@
         "family": "Amphidomataceae",
         "genus": "Azadinium"
       },
-      "toxins": [],
+      "toxins": [
+        "AZA2"
+      ],
       "notes": "",
       "image": {}
     },
@@ -991,7 +1049,10 @@
         "family": "Amphidomataceae",
         "genus": "Azadinium"
       },
-      "toxins": [],
+      "toxins": [
+        "AZA1",
+        "AZA2"
+      ],
       "notes": "",
       "image": {}
     },
@@ -1546,7 +1607,11 @@
         "family": "Dinophysaceae",
         "genus": "Dinophysis"
       },
-      "toxins": [],
+      "toxins": [
+        "OA",
+        "DTX1",
+        "PTX2"
+      ],
       "notes": "",
       "image": {}
     },
@@ -1561,7 +1626,12 @@
         "family": "Dinophysaceae",
         "genus": "Dinophysis"
       },
-      "toxins": [],
+      "toxins": [
+        "OA",
+        "DTX2",
+        "PTX2",
+        "PTX11"
+      ],
       "notes": "",
       "image": {}
     },
@@ -1636,7 +1706,10 @@
         "family": "Dinophysaceae",
         "genus": "Dinophysis"
       },
-      "toxins": [],
+      "toxins": [
+        "OA",
+        "PTX2"
+      ],
       "notes": "",
       "image": {}
     },
@@ -1726,7 +1799,11 @@
         "family": "Dinophysaceae",
         "genus": "Dinophysis"
       },
-      "toxins": [],
+      "toxins": [
+        "OA",
+        "DTX1",
+        "PTX2"
+      ],
       "notes": "",
       "image": {}
     },
@@ -1771,7 +1848,9 @@
         "family": "Dinophysaceae",
         "genus": "Dinophysis"
       },
-      "toxins": [],
+      "toxins": [
+        "OA"
+      ],
       "notes": "",
       "image": {}
     },
@@ -1846,7 +1925,9 @@
         "family": "Dinophysaceae",
         "genus": "Dinophysis"
       },
-      "toxins": [],
+      "toxins": [
+        "DTX1"
+      ],
       "notes": "",
       "image": {}
     },
@@ -1891,7 +1972,11 @@
         "family": "Dinophysaceae",
         "genus": "Dinophysis"
       },
-      "toxins": [],
+      "toxins": [
+        "OA",
+        "DTX1",
+        "PTX2"
+      ],
       "notes": "",
       "image": {}
     },
@@ -1921,7 +2006,9 @@
         "family": "Dinophysaceae",
         "genus": "Dinophysis"
       },
-      "toxins": [],
+      "toxins": [
+        "OA"
+      ],
       "notes": "",
       "image": {}
     },
@@ -1936,7 +2023,9 @@
         "family": "Dinophysaceae",
         "genus": "Dinophysis"
       },
-      "toxins": [],
+      "toxins": [
+        "OA"
+      ],
       "notes": "",
       "image": {}
     },
@@ -1951,7 +2040,9 @@
         "family": "Dinophysaceae",
         "genus": "Dinophysis"
       },
-      "toxins": [],
+      "toxins": [
+        "OA"
+      ],
       "notes": "",
       "image": {}
     },
@@ -2026,7 +2117,10 @@
         "family": "Dinophysaceae",
         "genus": "Dinophysis"
       },
-      "toxins": [],
+      "toxins": [
+        "OA",
+        "DTX1"
+      ],
       "notes": "",
       "image": {}
     },
@@ -2056,7 +2150,9 @@
         "family": "Dinophysaceae",
         "genus": "Dinophysis"
       },
-      "toxins": [],
+      "toxins": [
+        "PTX2"
+      ],
       "notes": "",
       "image": {}
     },
@@ -2566,7 +2662,10 @@
         "family": "Ostreopsidaceae",
         "genus": "Fukuyoa"
       },
-      "toxins": [],
+      "toxins": [
+        "CTX1B",
+        "CTX4A"
+      ],
       "notes": "",
       "image": {}
     },
@@ -2581,7 +2680,9 @@
         "family": "Ostreopsidaceae",
         "genus": "Fukuyoa"
       },
-      "toxins": [],
+      "toxins": [
+        "CTX1B"
+      ],
       "notes": "",
       "image": {}
     },
@@ -2611,7 +2712,10 @@
         "family": "Pyrocystaceae",
         "genus": "Gambierdiscus"
       },
-      "toxins": [],
+      "toxins": [
+        "CTX1B",
+        "CTX2B"
+      ],
       "notes": "",
       "image": {}
     },
@@ -2641,7 +2745,10 @@
         "family": "Pyrocystaceae",
         "genus": "Gambierdiscus"
       },
-      "toxins": [],
+      "toxins": [
+        "CTX4A",
+        "CTX4B"
+      ],
       "notes": "",
       "image": {}
     },
@@ -2656,7 +2763,10 @@
         "family": "Pyrocystaceae",
         "genus": "Gambierdiscus"
       },
-      "toxins": [],
+      "toxins": [
+        "CTX4A",
+        "CTX4B"
+      ],
       "notes": "",
       "image": {}
     },
@@ -2716,7 +2826,11 @@
         "family": "Pyrocystaceae",
         "genus": "Gambierdiscus"
       },
-      "toxins": [],
+      "toxins": [
+        "CTX1B",
+        "CTX4A",
+        "CTX4B"
+      ],
       "notes": "",
       "image": {}
     },
@@ -2791,7 +2905,10 @@
         "family": "Pyrocystaceae",
         "genus": "Gambierdiscus"
       },
-      "toxins": [],
+      "toxins": [
+        "CTX1B",
+        "CTX2B"
+      ],
       "notes": "",
       "image": {}
     },
@@ -2806,7 +2923,11 @@
         "family": "Pyrocystaceae",
         "genus": "Gambierdiscus"
       },
-      "toxins": [],
+      "toxins": [
+        "CTX1B",
+        "CTX2B",
+        "CTX3C"
+      ],
       "notes": "",
       "image": {}
     },
@@ -2866,7 +2987,15 @@
         "family": "Pyrocystaceae",
         "genus": "Gambierdiscus"
       },
-      "toxins": [],
+      "toxins": [
+        "CTX1B",
+        "CTX2B",
+        "CTX3C",
+        "CTX4A",
+        "CTX4B",
+        "MTX1",
+        "MTX2"
+      ],
       "notes": "",
       "image": {}
     },
@@ -3141,7 +3270,7 @@
     "210": {
       "aphiaId": 704381,
       "scientificName": "Goniaulux tamarensis",
-      "authority": null,
+      "authority": {},
       "classification": {
         "phylum": "Myzozoa",
         "class": "Dinoflagellata incertae sedis",
@@ -3535,7 +3664,9 @@
         "family": "Gonyaulacaceae",
         "genus": "Gonyaulax"
       },
-      "toxins": [],
+      "toxins": [
+        "YTX"
+      ],
       "notes": "",
       "image": {}
     },
@@ -3550,7 +3681,9 @@
         "family": "Gonyaulacaceae",
         "genus": "Gonyaulax"
       },
-      "toxins": [],
+      "toxins": [
+        "YTX"
+      ],
       "notes": "",
       "image": {}
     },
@@ -3715,7 +3848,16 @@
         "family": "Gymnodiniaceae",
         "genus": "Gymnodinium"
       },
-      "toxins": [],
+      "toxins": [
+        "STX",
+        "dcSTX",
+        "B1",
+        "B2",
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
       "notes": "",
       "image": {}
     },
@@ -4240,7 +4382,12 @@
         "family": "Kareniaceae",
         "genus": "Karenia"
       },
-      "toxins": [],
+      "toxins": [
+        "PbTx1",
+        "PbTx2",
+        "PbTx3",
+        "PbTx9"
+      ],
       "notes": "",
       "image": {}
     },
@@ -4255,7 +4402,12 @@
         "family": "Kareniaceae",
         "genus": "Karenia"
       },
-      "toxins": [],
+      "toxins": [
+        "PbTx2",
+        "BTX-B1",
+        "BTX-B2",
+        "BTX-B4"
+      ],
       "notes": "",
       "image": {}
     },
@@ -4345,7 +4497,9 @@
         "family": "Kareniaceae",
         "genus": "Karenia"
       },
-      "toxins": [],
+      "toxins": [
+        "PbTx2"
+      ],
       "notes": "",
       "image": {}
     },
@@ -4360,7 +4514,10 @@
         "family": "Kareniaceae",
         "genus": "Karenia"
       },
-      "toxins": [],
+      "toxins": [
+        "PbTx2",
+        "BTX-B1"
+      ],
       "notes": "",
       "image": {}
     },
@@ -4630,7 +4787,9 @@
         "family": "Lingulodiniaceae",
         "genus": "Lingulodinium"
       },
-      "toxins": [],
+      "toxins": [
+        "YTX"
+      ],
       "notes": "",
       "image": {}
     },
@@ -5109,7 +5268,9 @@
         "family": "Bacillariaceae",
         "genus": "Nitzschia"
       },
-      "toxins": [],
+      "toxins": [
+        "DA"
+      ],
       "notes": "",
       "image": {}
     },
@@ -6067,7 +6228,9 @@
         "family": "Prorocentraceae",
         "genus": "Prorocentrum"
       },
-      "toxins": [],
+      "toxins": [
+        "OA"
+      ],
       "notes": "",
       "image": {}
     },
@@ -6112,7 +6275,9 @@
         "family": "Prorocentraceae",
         "genus": "Prorocentrum"
       },
-      "toxins": [],
+      "toxins": [
+        "OA"
+      ],
       "notes": "",
       "image": {}
     },
@@ -6172,7 +6337,9 @@
         "family": "Prorocentraceae",
         "genus": "Prorocentrum"
       },
-      "toxins": [],
+      "toxins": [
+        "OA"
+      ],
       "notes": "",
       "image": {}
     },
@@ -6202,7 +6369,11 @@
         "family": "Prorocentraceae",
         "genus": "Prorocentrum"
       },
-      "toxins": [],
+      "toxins": [
+        "OA",
+        "DTX1",
+        "DTX2"
+      ],
       "notes": "",
       "image": {}
     },
@@ -6217,7 +6388,9 @@
         "family": "Prorocentraceae",
         "genus": "Prorocentrum"
       },
-      "toxins": [],
+      "toxins": [
+        "OA"
+      ],
       "notes": "",
       "image": {}
     },
@@ -6292,7 +6465,9 @@
         "family": "Prorocentraceae",
         "genus": "Prorocentrum"
       },
-      "toxins": [],
+      "toxins": [
+        "OA"
+      ],
       "notes": "",
       "image": {}
     },
@@ -6472,7 +6647,10 @@
         "family": "Protoceratiaceae",
         "genus": "Protoceratium"
       },
-      "toxins": [],
+      "toxins": [
+        "YTX",
+        "homoYTX"
+      ],
       "notes": "",
       "image": {}
     },
@@ -6862,7 +7040,9 @@
         "family": "Bacillariaceae",
         "genus": "Pseudo-nitzschia"
       },
-      "toxins": [],
+      "toxins": [
+        "DA"
+      ],
       "notes": "",
       "image": {}
     },
@@ -6937,7 +7117,9 @@
         "family": "Bacillariaceae",
         "genus": "Pseudo-nitzschia"
       },
-      "toxins": [],
+      "toxins": [
+        "DA"
+      ],
       "notes": "",
       "image": {}
     },
@@ -6952,7 +7134,9 @@
         "family": "Bacillariaceae",
         "genus": "Pseudo-nitzschia"
       },
-      "toxins": [],
+      "toxins": [
+        "DA"
+      ],
       "notes": "",
       "image": {}
     },
@@ -6967,7 +7151,9 @@
         "family": "Bacillariaceae",
         "genus": "Pseudo-nitzschia"
       },
-      "toxins": [],
+      "toxins": [
+        "DA"
+      ],
       "notes": "",
       "image": {}
     },
@@ -6982,7 +7168,9 @@
         "family": "Bacillariaceae",
         "genus": "Pseudo-nitzschia"
       },
-      "toxins": [],
+      "toxins": [
+        "DA"
+      ],
       "notes": "",
       "image": {}
     },
@@ -7012,7 +7200,9 @@
         "family": "Bacillariaceae",
         "genus": "Pseudo-nitzschia"
       },
-      "toxins": [],
+      "toxins": [
+        "DA"
+      ],
       "notes": "",
       "image": {}
     },
@@ -7087,7 +7277,9 @@
         "family": "Bacillariaceae",
         "genus": "Pseudo-nitzschia"
       },
-      "toxins": [],
+      "toxins": [
+        "DA"
+      ],
       "notes": "",
       "image": {}
     },
@@ -7147,7 +7339,9 @@
         "family": "Bacillariaceae",
         "genus": "Pseudo-nitzschia"
       },
-      "toxins": [],
+      "toxins": [
+        "DA"
+      ],
       "notes": "",
       "image": {}
     },
@@ -7177,7 +7371,9 @@
         "family": "Bacillariaceae",
         "genus": "Pseudo-nitzschia"
       },
-      "toxins": [],
+      "toxins": [
+        "DA"
+      ],
       "notes": "",
       "image": {}
     },
@@ -7237,14 +7433,16 @@
         "family": "Bacillariaceae",
         "genus": "Pseudo-nitzschia"
       },
-      "toxins": [],
+      "toxins": [
+        "DA"
+      ],
       "notes": "",
       "image": {}
     },
     "484": {
       "aphiaId": 175749,
       "scientificName": "Pseudo-nitzschia seriata f. seriata",
-      "authority": null,
+      "authority": {},
       "classification": {
         "phylum": "Heterokontophyta",
         "class": "Bacillariophyceae",
@@ -7387,7 +7585,11 @@
         "family": "Pyrocystaceae",
         "genus": "Pyrodinium"
       },
-      "toxins": [],
+      "toxins": [
+        "STX",
+        "NEO",
+        "dcSTX"
+      ],
       "notes": "",
       "image": {}
     },
