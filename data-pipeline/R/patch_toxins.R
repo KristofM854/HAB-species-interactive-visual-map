@@ -109,7 +109,7 @@ map_lower <- setNames(TOXIN_MAP, tolower(trimws(names(TOXIN_MAP))))
 matched   <- character(0)
 unmatched <- character(0)
 
-snap$species <- lapply(snap$species, function(sp) {
+snap$species <- unname(lapply(snap$species, function(sp) {
   key <- tolower(trimws(sp$scientificName))
   if (!is.null(map_lower[[key]])) {
     sp$toxins <- as.list(map_lower[[key]])
@@ -118,7 +118,7 @@ snap$species <- lapply(snap$species, function(sp) {
     unmatched <<- c(unmatched, sp$scientificName)
   }
   sp
-})
+}))
 
 # ── Report ────────────────────────────────────────────────────────────────────
 

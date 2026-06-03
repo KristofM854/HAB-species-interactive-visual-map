@@ -135,7 +135,7 @@ write_json(
     meta    = list(source = "IOC-UNESCO / WoRMS",
                    accessed = format(Sys.Date(), "%Y-%m-%d"),
                    version  = today),
-    species = species_records
+    species = unname(species_records)
   ),
   output_path,
   pretty     = TRUE,
