@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HAB Species Snapshot",
+  "description": "Versioned snapshot of IOC-UNESCO/WoRMS harmful microalgae data for the HAB Species Map app.",
+  "type": "object",
+  "required": ["meta", "species"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["source", "accessed", "version"],
+      "properties": {
+        "source":   { "type": "string" },
+        "accessed": { "type": "string" },
+        "version":  { "type": "string" },
+        "note":     { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "species": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["aphiaId", "scientificName"],
+        "properties": {
+          "aphiaId":        { "type": "integer" },
+          "scientificName": { "type": "string" },
+          "authority":      { "type": "string" },
+          "classification": {
+            "type": "object",
+            "properties": {
+              "phylum": { "type": "string" },
+              "class":  { "type": "string" },
+              "order":  { "type": "string" },
+              "family": { "type": "string" },
+              "genus":  { "type": "string" }
+            },
+            "additionalProperties": false
+          },
+          "toxins": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "notes": { "type": "string" },
+          "image": {
+            "oneOf": [
+              { "type": "null" },
+              {
+                "type": "object",
+                "required": ["url", "credit", "source", "license"],
+                "properties": {
+                  "url":           { "type": "string" },
+                  "credit":        { "type": "string" },
+                  "source":        { "type": "string" },
+                  "license":       { "type": "string" },
+                  "licenseUrl":    { "type": "string" },
+                  "licenseUsable": { "type": ["boolean", "null"] }
+                },
+                "additionalProperties": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
