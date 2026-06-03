@@ -85,6 +85,10 @@
   font-size: 0.875rem;
 }
 
+.section-sankey {
+  /* no extra styles needed — SankeyView is self-contained */
+}
+
 .app-footer {
   background: var(--color-surface);
   border-top: 1px solid var(--color-border);

@@ -1,14 +1,23 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import ImageAttribution from './ImageAttribution.jsx'
 import './SpeciesCard.css'
 
-export default function SpeciesCard({ species, syndrome }) {
+export default function SpeciesCard({ species, syndrome, focused }) {
   const [expanded, setExpanded] = useState(false)
   const { scientificName, authority, classification, toxins, notes, image } = species
 
+  useEffect(() => {
+    if (focused) {
+      setExpanded(true)
+      document.getElementById(`species-card-${species.aphiaId}`)
+        ?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    }
+  }, [focused, species.aphiaId])
+
   return (
     <div
-      className={`species-card${expanded ? ' species-card--expanded' : ''}`}
+      id={`species-card-${species.aphiaId}`}
+      className={`species-card${expanded ? ' species-card--expanded' : ''}${focused ? ' species-card--focused' : ''}`}
       style={{ '--syndrome-color': `var(--color-${syndrome.toLowerCase()})` }}
     >
       <button
