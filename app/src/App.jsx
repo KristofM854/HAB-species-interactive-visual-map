@@ -1,14 +1,31 @@
-import { useState } from 'react'
+import { useState, useCallback } from 'react'
 import SyndromeSelector from './components/SyndromeSelector.jsx'
 import SpeciesGrid from './components/SpeciesGrid.jsx'
+import SankeyView from './components/SankeyView.jsx'
 import About from './components/About.jsx'
 import { useHabData } from './hooks/useHabData.js'
 import './App.css'
 
 export default function App() {
-  const { syndromes, speciesBySyndrome, error } = useHabData()
-  const [selectedSyndrome, setSelectedSyndrome] = useState(null)
+  const { syndromes, species, speciesBySyndrome, error } = useHabData()
+  const [selectedSyndrome, setSelectedSyndrome] = useState('PSP')
   const [showAbout, setShowAbout] = useState(false)
+  const [focusedSpeciesId, setFocusedSpeciesId] = useState(null)
+
+  const handleSpeciesFocus = useCallback((aphiaId) => {
+    const sp = species.find(s => s.aphiaId === aphiaId)
+    if (!sp) return
+    // If no syndrome selected, switch to first matching one
+    if (!selectedSyndrome) {
+      const first = ['PSP','DSP','ASP','NSP','CFP','AZP'].find(sid => {
+        const ts = new Set(syndromes[sid]?.toxins || [])
+        return sp.toxins?.some(t => ts.has(t))
+      })
+      if (first) setSelectedSyndrome(first)
+    }
+    setFocusedSpeciesId(aphiaId)
+    setTimeout(() => setFocusedSpeciesId(null), 2500)
+  }, [species, syndromes, selectedSyndrome])
 
   return (
     <div className="app">
@@ -29,6 +46,16 @@ export default function App() {
           <div className="error-banner">Failed to load species data: {error}</div>
         )}
 
+        <section className="section-sankey">
+          <p className="section-label">Syndrome → Toxin → Species</p>
+          <SankeyView
+            syndromes={syndromes}
+            species={species}
+            selectedSyndrome={selectedSyndrome}
+            onSpeciesFocus={handleSpeciesFocus}
+          />
+        </section>
+
         <section className="section-syndromes">
           <p className="section-label">Select a poisoning syndrome</p>
           <SyndromeSelector
@@ -38,18 +65,16 @@ export default function App() {
           />
         </section>
 
-        {selectedSyndrome ? (
+        {selectedSyndrome && (
           <section className="section-species">
             <SpeciesGrid
               syndrome={selectedSyndrome}
               syndromeInfo={syndromes[selectedSyndrome]}
               species={speciesBySyndrome[selectedSyndrome] ?? []}
+              focusedSpeciesId={focusedSpeciesId}
+              onSpeciesFocus={handleSpeciesFocus}
             />
           </section>
-        ) : (
-          <div className="empty-state">
-            <p>Choose a syndrome above to explore associated HAB species.</p>
-          </div>
         )}
       </main>
 

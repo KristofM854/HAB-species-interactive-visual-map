@@ -1,7 +1,7 @@
 import SpeciesCard from './SpeciesCard.jsx'
 import './SpeciesGrid.css'
 
-export default function SpeciesGrid({ syndrome, syndromeInfo, species }) {
+export default function SpeciesGrid({ syndrome, syndromeInfo, species, focusedSpeciesId, onSpeciesFocus }) {
   return (
     <div className="species-grid-section">
       <div className="species-grid-header">
@@ -27,7 +27,12 @@ export default function SpeciesGrid({ syndrome, syndromeInfo, species }) {
       ) : (
         <div className="species-grid">
           {species.map(sp => (
-            <SpeciesCard key={sp.aphiaId} species={sp} syndrome={syndrome} />
+            <SpeciesCard
+              key={sp.aphiaId}
+              species={sp}
+              syndrome={syndrome}
+              focused={focusedSpeciesId === sp.aphiaId}
+            />
           ))}
         </div>
       )}

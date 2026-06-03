@@ -16,6 +16,17 @@
   box-shadow: var(--shadow-elevated);
 }
 
+.species-card--focused {
+  border-color: var(--syndrome-color);
+  box-shadow: 0 0 0 2px var(--syndrome-color), var(--shadow-elevated);
+  animation: focusPulse 0.5s ease-out;
+}
+
+@keyframes focusPulse {
+  from { box-shadow: 0 0 0 6px var(--syndrome-color), var(--shadow-elevated); }
+  to   { box-shadow: 0 0 0 2px var(--syndrome-color), var(--shadow-elevated); }
+}
+
 .species-card-trigger {
   background: none;
   border: none;
